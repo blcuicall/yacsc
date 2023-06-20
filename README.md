@@ -1,5 +1,5 @@
 # YACSC
-[English](README.en.md) | 简体中文
+[English](README.md) | 简体中文
 
 YACSC (**Y**et **A**nother **C**hinese **S**pelling **C**heck Dataset) 是用于评估拼写检查模型在真实场景下性能的评估数据集。之前的Benchmark如 [SIGHAN](http://ir.itc.ntnu.edu.tw/lre/sighan8csc.html) 假设输入的句子只包含拼写错误，我们将其称为理想场景。然而，在真实应用场景中，拼写检查模型不可避免地会遇到带有语法错误的句子，这与理想场景的假设是有所偏离的。
 
@@ -11,7 +11,7 @@ YACSC 是一个两阶段数据集，包含2550个带标注的句对。数据集�
 
 - YACSC-with_GE：用于在理想场景下测试模型的性能，其源句子和目标句纠正了语法错误。
 
-YACSC和这两个子集都放在 `./YACSC`。
+YACSC和这两个子集都放在 `YACSC`。
 
 下面是YACSC数据集的相关统计信息:
 | 描述 | 统计 |
@@ -44,7 +44,7 @@ YACSC和这两个子集都放在 `./YACSC`。
 | SIGHAN14 | 1062 | 602 | 932 |
 | SIGHAN15 | 1100 | 618 | 858 |
 
-所有校对后的SIGHAN测试集放在 `./SIGHAN-REVISED`.
+所有校对后的SIGHAN测试集放在 `SIGHAN-REVISED`.
 
 ## Evaluation
 
@@ -88,7 +88,7 @@ sent-correct-f1: 75.90
   title={The Construction of Chinese Multi-dimensional Learner Corpus: YACLC},
   author={Yingying Wang, Cunliang Kong, Liner Yang, Renfen Hu, Erhong Yang, Maosong Sun},
   journal={Applied Linguistics},
-  year={2023}
+  year={2023},
   number={1},
   pages={88-99}
 }

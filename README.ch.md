@@ -1,11 +1,11 @@
 # YACSC
-English | [简体中文](README.md)
+English | [简体中文](README.ch.md)
 
 YACSC (**Y**et **A**nother **C**hinese **S**pelling **C**heck Dataset) is an evaluation dataset used to assess the performance of spell check models in real-world scenarios. Previous benchmarks like [SIGHAN](http://ir.itc.ntnu.edu.tw/lre/sighan8csc.html) assume input sentences contain only spelling errors, which we refer to as ideal scenarios. However, in real-world applications, spell check inevitably encounters sentences with grammatical errors, which deviates from the assumptions made in ideal scenarios. 
 
 To test the effectiveness of existing CSC models in real-world scenarios and their potential to improve grammar correction, we propose YACSC. It is based on the Chinese learner corpus [YACLC](https://github.com/blcuicall/YACLC#introduction), a large-scale crowd-sourced corpus of annotated sentences written by Chinese language learners, which includes both grammatical and fluency corrections. We made annotations directly from the original, ungrammatical input of YACLC, without any modifications, to provide a more accurate evaluation of CSC performance in real-world conditions.
 
-YACSC is a two-stage corpus for evaluating the performance of CSC models, including 2,550 annotated sentences. The corpus consists of sentences with both spelling and grammatical errors, which are then corrected in two stages. The first stage corrects the spelling errors, while the second stage corrects grammatical errors. We also provide two subsets of YACSC, YACSC-no\_GE and YACSC-with\_GE. In YACSC-with\_GE, the source sentences and target sentences do not correct grammatical errors, which are used to test the performance of the CSC model under real-world scenarios. In YACSC-with\_GE, the source sentences and target sentences have corrected grammatical errors, which are used to test the performance of the model under ideal scenarios. Both the YACSC dataset and the two subsets can be found in `./YACSC`. 
+YACSC is a two-stage corpus for evaluating the performance of CSC models, including 2,550 annotated sentences. The corpus consists of sentences with both spelling and grammatical errors, which are then corrected in two stages. The first stage corrects the spelling errors, while the second stage corrects grammatical errors. We also provide two subsets of YACSC, YACSC-no\_GE and YACSC-with\_GE. In YACSC-with\_GE, the source sentences and target sentences do not correct grammatical errors, which are used to test the performance of the CSC model under real-world scenarios. In YACSC-with\_GE, the source sentences and target sentences have corrected grammatical errors, which are used to test the performance of the model under ideal scenarios. Both the YACSC dataset and the two subsets can be found in `YACSC`. 
 
 Following is an overview of the statistics for YACSC:
 | Description | Statistics |
@@ -38,7 +38,7 @@ To address the above-mentioned issues in the SIGHAN test sets, including mislabe
 | SIGHAN14 | 1,062 | 602 | 932 |
 | SIGHAN15 | 1,100 | 618 | 858 |
 
-All revised SIGHAN test sets can be found in `./SIGHAN-REVISED`.
+All revised SIGHAN test sets can be found in `SIGHAN-REVISED`.
 
 ## Evaluation
 
@@ -82,7 +82,7 @@ If you find this work useful for your research, please cite our paper:
   title={The Construction of Chinese Multi-dimensional Learner Corpus: YACLC},
   author={Yingying Wang, Cunliang Kong, Liner Yang, Renfen Hu, Erhong Yang, Maosong Sun},
   journal={Applied Linguistics},
-  year={2023}
+  year={2023},
   number={1},
   pages={88-99}
 }
