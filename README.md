@@ -25,14 +25,14 @@ Originally, the SIGHAN datasets are in traditional Chinese. Most prior studies a
 
 To address the above-mentioned issues in the SIGHAN test sets, including mislabeling and omission, etc., we conducted a revision to improve the confidence of evaluation results. Following are the before-and-after revision statistics of the SIGHAN test sets:
 
-| Original | \# Sent | Sent with Errors | \# Errors |
+| Original | \# Sent | \# Sent with Errors | \# Errors |
 | --- | ---: | ---: | ---: |
 | SIGHAN13 | 1,000 | 1,000 | 1,224 |
 | SIGHAN14 | 1,062 | 531 | 771 |
 |SIGHAN15 | 1,100 | 550 | 703 |
 		
 		 
-| Revised | \# Sent | Sent with Errors | \# Errors |
+| Revised | \# Sent | \# Sent with Errors | \# Errors |
 | --- | ---: | ---: | ---: |
 | SIGHAN13 | 1,000 | 977 | 1,483 |
 | SIGHAN14 | 1,062 | 602 | 932 |
