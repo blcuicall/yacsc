@@ -1,5 +1,5 @@
 # YACSC
-English | [简体中文](README.ch.md)
+English | [简体中文](README.zh.md)
 
 YACSC (**Y**et **A**nother **C**hinese **S**pelling **C**heck Dataset) is an evaluation dataset used to assess the performance of spell check models in real-world scenarios. Previous benchmarks like [SIGHAN](http://ir.itc.ntnu.edu.tw/lre/sighan8csc.html) assume input sentences contain only spelling errors, which we refer to as ideal scenarios. However, in real-world applications, spell check inevitably encounters sentences with grammatical errors, which deviates from the assumptions made in ideal scenarios. 
 
