@@ -85,9 +85,9 @@ sent-correct-f1: 75.90
 }
 
 @article{wang-etal-2023-yaclc,
-  title={The Construction of Chinese Multi-dimensional Learner Corpus: YACLC},
-  author={Yingying Wang, Cunliang Kong, Liner Yang, Renfen Hu, Erhong Yang, Maosong Sun},
-  journal={Applied Linguistics},
+  title={汉语学习者文本多维标注语料库建设},
+  author={王莹莹, 孔存良, 杨麟儿, 胡韧奋, 杨尔弘, 孙茂松},
+  journal={语言文字应用},
   year={2023},
   number={1},
   pages={88-99}
