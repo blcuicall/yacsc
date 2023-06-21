@@ -71,11 +71,11 @@ sent-correct-f1: 75.90
 If you find this work useful for your research, please cite our paper:
 
 ```
-@article{wang-etal-2021-yaclc,
-  title={YACLC: A Chinese Learner Corpus with Multidimensional Annotation},
-  author={Yingying Wang, Cunliang Kong, Liner Yang, Yijun Wang, Xiaorong Lu, Renfen Hu, Shan He, Zhenghao Liu, Yun Chen, Erhong Yang, Maosong Sun},
-  journal={arXiv preprint arXiv:2112.15043},
-  year={2021}
+@article{yang-etal-2023-csc,
+  title={Is Chinese Spelling Check Ready? Understanding the Correction Behavior in Real-World Scenarios},
+  author={Liner Yang, Xin Liu, Tianxin Liao, Zhenghao Liu, Mengyan Wang, Xuezhi Fang, Erhong Yang},
+  journal={Submitted to TALSP},
+  year={2023}
 }
 
 @article{wang-etal-2023-yaclc,
@@ -85,5 +85,12 @@ If you find this work useful for your research, please cite our paper:
   year={2023},
   number={1},
   pages={88-99}
+}
+
+@article{wang-etal-2021-yaclc,
+  title={YACLC: A Chinese Learner Corpus with Multidimensional Annotation},
+  author={Yingying Wang, Cunliang Kong, Liner Yang, Yijun Wang, Xiaorong Lu, Renfen Hu, Shan He, Zhenghao Liu, Yun Chen, Erhong Yang, Maosong Sun},
+  journal={arXiv preprint arXiv:2112.15043},
+  year={2021}
 }
 ```
