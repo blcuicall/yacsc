@@ -80,7 +80,7 @@ sent-correct-f1: 75.90
 @article{yang-etal-2023-csc,
   title={Is Chinese Spelling Check Ready? Understanding the Correction Behavior in Real-World Scenarios},
   author={Liner Yang, Xin Liu, Tianxin Liao, Zhenghao Liu, Mengyan Wang, Xuezhi Fang, Erhong Yang},
-  journal={Submitted to TALSP},
+  journal={Submitted to AI OPEN},
   year={2023}
 }
 
